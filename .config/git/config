@@ -1,0 +1,26 @@
+[user]
+	name = Jay L. Colbert
+	email = jaylcolbert@gmail.com
+	signingkey = A0CDA2962BBE5EFF
+[core]
+	editor = emacs
+	excludesfile = /Users/jaycolbert/.config/git/ignore
+	autocrlf = input
+[init]
+	defaultBranch = main
+[color]
+	status = auto
+	branch = auto
+	interactive = auto
+	diff = auto
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+	unstage = reset HEAD --
+	last = log -1 HEAD
+[rerere]
+	enabled = true
+[commit]
+	gpgsign = true
